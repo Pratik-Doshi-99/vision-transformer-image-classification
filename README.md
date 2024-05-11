@@ -3,7 +3,7 @@ A project to fine tune the Vision Transformer on a dataset for a classification 
 
 ## Project Setup
 
-Run ```data.py``` to download the dataset in the correct sub-directory. ```image-classification.ipynb``` contains the code for:
+Run ```python  data.py``` to download the dataset in the correct sub-directory. ```image-classification.ipynb``` contains the code for:
 1. Loading dataset and feeding it to the models
 2. Performing data augmentation, as is necessary to train a transformer-based model on a small dataset.
 3. Visualizing the data augmentation.
