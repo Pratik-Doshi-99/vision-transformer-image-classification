@@ -8,7 +8,9 @@ from torch.utils.data import Dataset
 import torchvision.transforms as transforms
 
 # Replace with your ZIP file URL
-DATASET = 'https://gitlab.nrp-nautilus.io/pratikdoshi/data_files/-/raw/main/image-classification-project/data.zip'
+#DATASET = 'https://gitlab.nrp-nautilus.io/pratikdoshi/data_files/-/raw/main/image-classification-project/data.zip'
+DATASET = ''
+#The data can be found on hugging face here: https://huggingface.co/datasets/pratikdoshi/image-classification-100-classes
 # Specify the directory where the file should be downloaded
 DOWNLOAD_DIRECTORY = os.path.join('.','data') # current directory
 # the name of the directory inside the zip which has the Images sub directory and captions.txt file
